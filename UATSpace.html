@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!--UAT Space Program
+    writtten by: Brandon Ackerman
+    CSC102, 30 May 2021-->
+<!--
+
+   ,___                     ______               
+  /   /        o           (  /     _/_          
+ /    __,  (  ,  _ _   __   -/--, , /  , , _   __
+(___/(_/(_/_)_(_/ / /_(_)  _/  (_/_(__(_/_/ (_(_)
+
+*************************************************************************************************************************                                                
+It's the year 2055. Inter-planetary travel has been restricted due to the uprising of the Cerulean Faction in the Nexus Galaxy.
+Weary travellers search in earnest for a place to let off steam. The place of choice: Casino Futuro! Located in the outer
+rings of the Jupiter Space Complex, Casino Futuro is host to highest class players of the galaxy's favorite game - Craps!
+*************************************************************************************************************************
+-->
+
+<html lang="en">
+
+<head>
+
+    <title>
+        UAT Space Program
+    </title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+
+    <head>
+
+    <body>
+
+        <img src="UATSpace-1.png">
+
+        <h1>
+            UAT Space Program
+        </h1>
+
+        <script> // document.write test
+            document.write("Test the document.write function");
+        </script>
+        <p>test of the paragraph tags</p><br>
+        <p id="countdownTimer">Countdown Status...</p>
+        <button class="button" onclick="evenBtrCountdownTimer();">start</button>
+        <button class="button">stop</button>
+
+        <script>
+       //no longer need alert
+       //alert("Test of the Alert function");
+        </script>
+
+        <!--put the craps game in a container, controlled by style.css-->
+        <div class="container">
+            <img src="casinoFrame.png" style="width:50%;">
+            <div class="crapsText">
+                <h2>Play Craps!</h2>
+                <div id="die1Results">die 1 status...</div><br>
+                <div id="die2Results">die 2 status...</div><br>
+                <div id="sumResults">Craps game status...</div><br>
+                <div id="crapsResults">Craps game status...</div><br>
+                <button class="button" onclick="playCraps();">start</button>
+            </div>
+
+        </div>
+    </body>
+
+</html>
